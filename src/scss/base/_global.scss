@@ -46,12 +46,6 @@ body{
 		}
 }
 
-.history {
-	width: 100%;
-	background-position: center;
-	background-size: cover;
-	background-repeat:no-repeat;
-}
 
 .two-columns {
 	p {
@@ -64,14 +58,6 @@ body{
 	}
 }
 
-#contact, #services {
-	width: 100%;
-	background-attachment: fixed;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
 .black {
 	color: $black;
 }
@@ -79,3 +65,47 @@ body{
 .white {
 	color: $white;
 }
+
+.history {
+	background-color: $primaryColor;
+	// width: 100%;
+	// background-position: center;
+	// background-size: cover;
+	// background-repeat:no-repeat;
+}
+
+// #contact, #services {
+// 	width: 100%;
+// 	background-attachment: fixed;
+// 	background-position: center;
+// 	background-size: cover;
+// 	background-repeat: no-repeat;
+// }
+
+// #contact {
+// 	background-image: url('/src/image/history_sheabel_bg.png');
+// }
+
+// .global {
+// 	width: 100%;
+// 	height: 100vh;
+// 	position: relative;
+// 	.imageBackground {
+// 		position: relative;
+	
+// 		img {
+// 			width: 100%;
+// 			height: auto;
+// 		}
+// 	}
+// 	.wrapper-container {
+// 		position: absolute;
+// 		width: 100%;
+// 		top: 0;
+// 		left: 50%;
+// 		transform: translateX(-50%);
+// 		height: 100vh;
+// 	}
+// }
+
+
