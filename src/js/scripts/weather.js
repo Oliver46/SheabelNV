@@ -23,7 +23,7 @@ class Weather {
 // $(document).ready(function(){
 // 	var city = "Lexington";
 // 	$.ajax({
-// 		url:"http://api.openweathermap.org/data/2.5/weather?q="+ city +"&units=imperial"+
+// 		url:"https://api.openweathermap.org/data/2.5/weather?q="+ city +"&units=imperial"+
 // 		"&APPID=c8db00af01dc960fbe302f2a3df181e9",
 // 		type:"GET",
 // 		dataType:"jsonp",
