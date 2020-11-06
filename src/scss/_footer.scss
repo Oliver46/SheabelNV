@@ -1,0 +1,32 @@
+footer{
+    margin: auto;
+    background: $lightBlue;
+    padding: 70px 0;
+    color: $white;
+
+    .footer-left-side{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .footer-address{
+            margin: auto;
+            width: 250px;
+        }
+    }
+
+    ul{
+        &.footer{
+            li {
+                line-height: 200%;
+                a{
+                    color:$red;
+                    text-decoration: none;
+                    &:hover{
+                        color:$white;
+                    }
+                }
+               
+            }
+        }
+    }
+}

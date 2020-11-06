@@ -1,0 +1,24 @@
+.row-two-white {
+    padding-bottom: 40px;
+}
+.box-blue {
+
+    .bell {
+        padding: 20px;
+        .fa-bell {
+            color: $red;
+        }
+    }
+    .service-title {
+        h3 {
+            color: $red;
+            letter-spacing: 2px;
+            padding-bottom: 10px;
+        }
+    }
+    .service-content {
+        p {
+            letter-spacing: 2px;
+        }
+    }
+}
